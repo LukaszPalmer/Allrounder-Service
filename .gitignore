@@ -1,5 +1,11 @@
-# Logs
-logs
+# Ignoriere node_modules
+node_modules/
+
+# Ignoriere build-Ordner
+build/
+dist/
+
+# Ignoriere Logdateien
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,14 +13,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# Ignoriere temporäre Dateien und Editor-Verzeichnisse
 .vscode/*
-!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
