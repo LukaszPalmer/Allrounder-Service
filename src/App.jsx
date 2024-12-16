@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-import Main from "./Components/Main";
+import Content from "./Components/Content";
 import HeroSection from "./Components/HeroSection";
 import ContactInfo from "./Components/ContactInfo";
 import ScrollToTop from "./Components/ScrollToTop"; // Import der ScrollToTop-Komponente
@@ -14,7 +14,7 @@ function App() {
             <ContactInfo/>
             <Header />
             <HeroSection />
-            <Main/>
+            <Content/>
             <ContactForm/>
             <ScrollToTop/>
             <Footer/>
